@@ -8,6 +8,7 @@ float sum;
 float difference;
 float average;
 float product;
+float quotient;
 int main()
 {
     setlocale(LC_ALL, "Russian");
@@ -27,6 +28,9 @@ int main()
     
     product = number1 * number2;
     cout << endl << endl << "Произведение чисел равно: "<< product;
+    
+    quotient = number1 / number2;
+    cout << endl << endl << "При делении первого числа на второе получим: " << quotient;
 
     return(0);
 }
