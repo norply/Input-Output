@@ -16,6 +16,9 @@ int main()
     
     sum = number1 + number2;
     cout << endl << "Сумма чисел равна: "<< sum;
+    
+    difference = number1 - number2;
+    cout << endl<< endl << "При вычитании из первого числа второго получим: "<< difference;
 
     return(0);
 }
