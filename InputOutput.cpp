@@ -13,5 +13,9 @@ int main()
     cin >> number1;
     cout <<endl << "Введите второе число: ";
     cin >> number2;
+    
+    sum = number1 + number2;
+    cout << endl << "Сумма чисел равна: "<< sum;
+
     return(0);
 }
