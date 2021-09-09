@@ -1,5 +1,6 @@
 #include <iostream>
 #include <Windows.h>
+#include <cmath>
 using namespace std;
 float number1;
 float number2;
@@ -19,6 +20,9 @@ int main()
     
     difference = number1 - number2;
     cout << endl<< endl << "При вычитании из первого числа второго получим: "<< difference;
+    
+    average = (abs(number1) + abs(number2)) / 2;
+    cout << endl << endl << "Среднее арифметическое модулей чисел равно: "<<average;
 
     return(0);
 }
